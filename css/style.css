@@ -98,6 +98,57 @@ body {
   border-radius: 20px;
 }
 
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .story-section {
+    padding: 40px 10px;
+    min-height: auto;
+  }
+
+  .cta-section {
+    padding: 50px 10px;
+  }
+
+  .pricing-card {
+    padding: 20px;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .story-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta-section h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content h1 {
+    font-size: 1.5rem;
+  }
+
+  .story-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .cta-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn-custom {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
 /* FOOTER */
 footer {
   background: black;
