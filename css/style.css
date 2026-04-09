@@ -86,16 +86,28 @@ body {
   background-size: cover;
 }
 
-/* CTA */
-.cta-section {
-  padding: 100px 20px;
+/* FOOTER */
+footer {
+  background: var(--black);
+  color: var(--white);
+  padding: 40px 0;
   text-align: center;
 }
 
-.pricing-card {
-  background: #1a1a1a;
-  padding: 40px;
-  border-radius: 20px;
+footer .contact-btn {
+  display: inline-block;
+  margin: 10px 0;
+  color: var(--green);
+  text-decoration: none;
+}
+
+footer .social-links a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+footer .social-links a:hover {
+  text-decoration: underline;
 }
 
 /* RESPONSIVE DESIGN */

@@ -1,3 +1,6 @@
+// Inicializar AOS
+AOS.init();
+
 // NAVBAR SCROLL
 window.addEventListener('scroll', () => {
   document.querySelector('.navbar')

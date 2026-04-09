@@ -54,7 +54,7 @@
                 <div class="row align-items-center">
 
                     <div class="col-md-6">
-                        <img src="img/moto1.jpg" class="story-img" alt="Diseño Kawasaki">
+                        <img src="img/moto1.jpg" class="story-img" alt="Diseño Kawasaki" data-aos="zoom-in" data-aos-duration="600">
                     </div>
 
                     <div class="col-md-6">
@@ -75,7 +75,7 @@
                 <div class="row align-items-center flex-md-row-reverse">
 
                     <div class="col-md-6">
-                        <img src="img/moto2.jpg" class="story-img" alt="Motor Kawasaki">
+                        <img src="img/moto2.jpg" class="story-img" alt="Motor Kawasaki" data-aos="zoom-in" data-aos-duration="600">
                     </div>
 
                     <div class="col-md-6">
@@ -96,7 +96,7 @@
                 <div class="row align-items-center">
 
                     <div class="col-md-6">
-                        <img src="img/moto3.jpg" class="story-img" alt="Tecnología Kawasaki">
+                        <img src="img/moto3.jpg" class="story-img" alt="Tecnología Kawasaki" data-aos="zoom-in" data-aos-duration="600">
                     </div>
 
                     <div class="col-md-6">
@@ -119,7 +119,7 @@
                     <h2>ZX-4RR</h2>
                     <p>Disponible en distintas versiones</p>
 
-                    <button class="btn btn-custom">Solicitar cotización</button>
+                    <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#cotizacionModal">Solicitar cotización</button>
 
                     <div class="trust-badges">
                         <span>✔ Seguro</span>
@@ -134,15 +134,28 @@
     </main>
 
     <footer>
-        <p>© 2026 Proyecto Front End</p>
-
-        <a class="contact-btn" href="mailto:martín.ocares@inacapmail.cl?subject=Cotización ZX4RR">
-            Contactar por correo
-        </a>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>© 2026 Proyecto Front End - Kawasaki ZX-4RR</p>
+                    <p>Descubre el rendimiento y la innovación de Kawasaki. Todas las motos incluyen garantía oficial.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a class="contact-btn" href="mailto:martín.ocares@inacapmail.cl?subject=Cotización ZX4RR">
+                        Contactar por correo
+                    </a>
+                    <div class="social-links mt-3">
+                        <a href="#" class="me-3">Facebook</a>
+                        <a href="#" class="me-3">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script src="js/script.js"></script>
 
 
