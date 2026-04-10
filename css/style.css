@@ -127,6 +127,9 @@ footer .social-links a:hover {
 
   .parallax {
     background-attachment: scroll;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .content h1 {
