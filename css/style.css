@@ -50,7 +50,7 @@ body {
 
 /* BOTÓN */
 .btn-custom {
-  background: var(--green);
+  background: var(--white);
   color: black;
   padding: 12px 24px;
   border-radius: 10px;
@@ -97,12 +97,12 @@ footer {
 footer .contact-btn {
   display: inline-block;
   margin: 10px 0;
-  color: var(--green);
+  color: var(--black);
   text-decoration: none;
 }
 
 footer .social-links a {
-  color: var(--green);
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -172,11 +172,14 @@ footer {
 }
 
 .contact-btn {
-  background: var(--green);
+  background: white;
   padding: 10px 20px;
   border-radius: 10px;
   color: black;
   text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
 }
 
 /* STORYTELLING */
